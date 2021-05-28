@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: pms-task-service
+  data:
+    mongodb:
+      uri: mongodb://mongo:mongo@127.0.0.1:27018/pms-task?authSource=admin
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

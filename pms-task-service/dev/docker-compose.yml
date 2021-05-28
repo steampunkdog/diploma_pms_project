@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  mongo-task:
+    image: mongo
+    restart: always
+    container_name: mongo-task
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: mongo
+      MONGO_INITDB_DATABASE: pms-task
+    ports:
+      - 27018:27017
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
+#docker-compose up --build -d mongo
