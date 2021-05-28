@@ -1,0 +1,3 @@
+mykyta\anyshchenko\diploma\discovery\exception\EntityNotFoundException.class
+mykyta\anyshchenko\diploma\discovery\exception\ServiceDoesntExistException.class
+mykyta\anyshchenko\diploma\discovery\ServiceWebClientProvider.class
