@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: pms-booking-service
+  data:
+    mongodb:
+      uri: mongodb://mongo:mongo@localhost:27019/pms-booking?authSource=admin
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: localhost:9200
+
+server:
+  port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

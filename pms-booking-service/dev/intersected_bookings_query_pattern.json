@@ -1,0 +1,30 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {"range": {"startDate": {"gt": "from", "lt": "to"}}},
+        {"range": {"endDate": {"gt": "from", "lt": "to"}}},
+        {
+          "bool": {
+            "must": [
+              {"range": {"startDate": {"lte": "from"}}},
+              {"range": {"endDate": {"gt": "from"}}}
+            ]
+          }
+        },
+        {
+          "bool": {
+            "must": [
+              {"range": {"startDate": {"lt": "to"}}},
+              {"range": {"endDate": {"gte": "to"}}}
+            ]
+          }
+        }
+      ],
+      "must": {
+        "term": {"roomId": 1}
+      },
+      "minimum_should_match": 1
+    }
+  }
+}
