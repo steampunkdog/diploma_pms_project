@@ -1,0 +1,11 @@
+{
+  "name": "aaa",
+  "lastName": "bbb",
+  "email": "aaa@bb.com",
+  "password": "pffff",
+  "role": "client",
+  "phoneNumber": "1232234223",
+  "dateOfBirth": "2015-02-20",
+  "gender": "man",
+  "homeCountry": "ggggg"
+}
