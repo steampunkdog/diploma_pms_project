@@ -1,0 +1,19 @@
+#embedded:
+#  containers:
+#    forceShutdown: true
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: pms-booking-service
+  data:
+    mongodb:
+      uri: mongodb://${embedded.mongodb.host}:${embedded.mongodb.port}/${embedded.mongodb.database}
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: ${embedded.elasticsearch.host}:${embedded.elasticsearch.httpPort}
+
+server:
+  port: 8084

@@ -1,0 +1,9 @@
+
+  {
+    "userId": "aaa",
+    "roomId": 1,
+    "status": "requested",
+    "startDate": "2020-04-04",
+    "endDate": "2020-05-04",
+    "price": 1200
+  }
