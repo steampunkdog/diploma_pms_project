@@ -1,0 +1,34 @@
+[
+	{
+		"id": 4,
+		"name": "Frist Room",
+		"class": "Econom",
+		"tags": ["Balcony", "For Smokers", "Big Bathroom"],
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nostrum, laborum corrupti voluptates, libero blanditiis inventore. Officiis ab aliquam nostrum?",
+		"price": 200
+	},
+	{
+		"id": 5,
+		"name": "Second Room",
+		"class": "Half-Lux",
+		"tags": ["For Smokers", "Big Bathroom"],
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nostrum, laborum corrupti voluptates, libero blanditiis inventore. Officiis ab aliquam nostrum?",
+		"price": 300
+	},
+	{
+		"id": 1,
+		"name": "Third Room",
+		"class": "Lux",
+		"tags": ["Big Bathroom", "Kitchen", "Terrace", "Sea View"],
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nostrum, laborum corrupti voluptates, libero blanditiis inventore. Officiis ab aliquam nostrum?",
+		"price": 500
+	},
+	{
+		"id": 2,
+		"name": "Fourth Room",
+		"class": "Lux",
+		"tags": ["Big Bathroom", "Kitchen", "Terrace", "Sea View"],
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nostrum, laborum corrupti voluptates, libero blanditiis inventore. Officiis ab aliquam nostrum?",
+		"price": 500
+	},
+]

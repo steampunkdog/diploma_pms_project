@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+			body{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				align-content: center;
+			}
+			.user-registration-form {
+				width: 500px;
+				display: flex;
+				justify-content: space-between;
+				font-family: 'Lato';
+				background-color: #f7f9f9ff;
+				padding: 30px;
+				border-radius: 20px;
+				-webkit-box-shadow: 5px 6px 21px 11px #f7f9f9ff;
+				-moz-box-shadow: 5px 6px 21px 11px #f7f9f9ff;
+				box-shadow: 5px 6px 21px 11px #f7f9f9ff;
+			}
+
+			input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+				width: 200px;
+				height: 30px;
+			}
+
+			label.submit-butoon-label p {
+				width: 200px;
+				height: 30px;
+				background-color: #00a676ff;
+				color: white;
+				line-height: 30px;
+				text-align: center;
+				font-size: 18px;
+
+			}
+
+			label.submit-butoon-label input{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="multipart/form-data" class="user-registration-form" name="user-form">
+				<div>
+					<label> <p>Name</p> 				<input type="text" name="name"> 		</label>
+					<label> <p>Lastname</p> 			<input type="text" name="lastName"> 	</label>
+					<label> <p>E-mail</p> 				<input type="email" name="email"> 		</label>
+					<label> <p>Password</p> 			<input type="password" name="password">	</label>
+				</div>	
+				<div>
+					<label> <p>Phone Number</p>    		<input type="text" name="phoneNumber"> 	</label>
+					<label> <p>Date Of Birth</p> 		<input type="date" name="dateOfBirth"> 	</label>
+					<label> <p>Gender</p> 				<input type="text" name="gender"> 		</label>
+					<label> <p>Home Country</p> 		<input type="text" name="homeCountry"> 	</label>
+					<label class="submit-butoon-label"> <p>Sign Up</p> <input type="submit" value="Save"> </label>
+				</div>	
+			</form>
+	</body>
+</html>

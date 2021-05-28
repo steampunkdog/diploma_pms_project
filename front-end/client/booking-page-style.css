@@ -1,0 +1,126 @@
+.booking-page {
+	justify-content: space-between;
+	
+}
+
+.booking-page-filters {
+	padding: 40px;
+	width: 250px;
+}
+
+.booking-page-filters h3 {
+	text-align: center;
+}
+
+.from-block-wrapper label{
+	line-height: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.booking-page-filters label input[type="checkbox"] {
+	margin: 0;
+	display: block;
+
+}
+
+.booking-page-filters label input[type="submit"] {
+	display:none;
+
+}
+
+.booking-page-filters label span {
+	margin: 0;
+	display: block;
+	margin-left: 8px;
+}
+
+.booking-page-rooms {
+	display: flex;
+	padding: 40px;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+
+
+.room {
+	width: 200px;
+	margin: 10px;
+}
+
+.room h3.room-name {
+	text-align: center;
+}
+
+.room p.room-class {
+	text-align: center;
+}
+
+.room-tags {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+}
+
+.room-tags span{
+	display: block;
+	padding: 4px 6px;
+	height: 20px;
+	margin: 2px 5px 2px 0;
+	background: lightgreen;
+	border-radius: 5px;
+}
+
+.booking-confirmation-wrapper {
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+}
+
+
+.bookin-form-dates-wrapper label {
+	display: flex;
+	justify-content: space-between;
+}
+
+.book-button, .start-search-button {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0 auto;
+	width: 100px;
+	height: 40px;
+	background-color: var(--blast-off-bronze);
+	transition: 0.5s
+}
+
+.start-search-button {
+	margin-top: 20px;
+}
+
+.book-button:hover, .start-search-button:hover {
+	background-color: var(--blood-red);
+	transition: 0.5s;
+}
+
+.booking-confirmation {
+	width: 200px;
+	padding: 0 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.booking-confirmation p{
+	display: flex;
+	justify-content: space-between;
+}
+
+.selected-room-name, .booking-price, .booking-confirmation-button {
+	font-weight: normal;
+}

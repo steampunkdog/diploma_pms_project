@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+	--green-munsell: #00a676ff;
+	--cultured: #f7f9f9ff;
+	--blast-off-bronze: #a76d60ff;
+	--blood-red: #601700ff;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+}
+
+nav {
+	width: 100%;
+}
+
+
+/* CSS HSL */
+--green-munsell: hsla(163, 100%, 33%, 1);
+--cultured: hsla(180, 14%, 97%, 1);
+--blast-off-bronze: hsla(11, 29%, 52%, 1);
+--blood-red: hsla(14, 100%, 19%, 1);
+
+/* SCSS HEX */
+$green-munsell: #00a676ff;
+$cultured: #f7f9f9ff;
+$blast-off-bronze: #a76d60ff;
+$blood-red: #601700ff;
+
+/* SCSS HSL */
+$green-munsell: hsla(163, 100%, 33%, 1);
+$cultured: hsla(180, 14%, 97%, 1);
+$blast-off-bronze: hsla(11, 29%, 52%, 1);
+$blood-red: hsla(14, 100%, 19%, 1);
+
+/* SCSS RGB */
+$green-munsell: rgba(0, 166, 118, 1);
+$cultured: rgba(247, 249, 249, 1);
+$blast-off-bronze: rgba(167, 109, 96, 1);
+$blood-red: rgba(96, 23, 0, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-right: linear-gradient(90deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-bottom: linear-gradient(180deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-left: linear-gradient(270deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-top-right: linear-gradient(45deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$graient-bottom-right: linear-gradient(135deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-top-left: linear-gradient(225deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-bottom-left: linear-gradient(315deg, #00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);
+$gradient-radial: radial-gradient(#00a676ff, #f7f9f9ff, #a76d60ff, #601700ff);

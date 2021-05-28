@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="menu-style.css">
+		<link rel="stylesheet" href="page-style.css">
+		<link rel="stylesheet" href="main-page-style.css">
+		<link rel="stylesheet" href="booking-page-style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		
+		<nav>
+
+			<ul class="menu-list">
+				<li class="menu-item">
+					<p class="menu-item-text">Main</p>
+				</li>
+				<li class="menu-item">
+					<p class="menu-item-text">Booking</p>
+				</li>
+				<li class="menu-item">
+					<p class="menu-item-text">Contacts</p>
+				</li>
+				<li class="menu-item">
+					<p class="menu-item-text">Account</p>
+				</li>
+			</ul>
+
+		</nav>
+
+		<main>
+			<div class="page main-page">
+				<div class="main-page-text">
+					<h2>
+						Welcome to Hotel!
+					</h2>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio consequuntur dolores quaerat vel amet porro saepe maxime! Autem, quas, reiciendis.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="page booking-page">
+
+				<div class="booking-page-filters">
+					<h3>Filters</h3>
+					<form action="multipart/form-data" class="booking-form" name="booking-form">
+						<div class="from-block-wrapper bookin-form-dates-wrapper">
+							<h4>Dates</h4>
+							<label>	
+								From: <input type="date" name="from"> 
+							</label>
+							<label>
+								To: <input type="date", name="to"> 
+							</label>
+						</div>
+						
+						<div class="from-block-wrapper booking-from-tags-wrapper">
+							<h4>Tags</h4>
+						</div>
+
+						<div class="from-block-wrapper booking-classes-wrapper">
+							<h4>Class</h4>
+						</div>
+						<label>
+							<div class="start-search-button">Search</div>
+							<input type="submit" value="Stash the file!">
+						</label>
+					</form>
+				</div>
+					
+				<div class="booking-page-rooms">
+				
+				</div>
+
+				<div class="booking-confirmation-wrapper">
+					<div class="booking-confirmation">
+					 	<h3>Your booking</h3>
+					 	<p><span>Room: </span><span class="selected-room-name">RoomName</span></p>
+					 	<p><span>Price: </span><span class="booking-price">400$<price></p>
+					 	<div class="booking-confirmation-button book-button">Confirm</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="page contacts-page">
+				
+			</div>
+
+			<div class="page client-page">
+				
+			</div>
+		</main>
+
+	</body>
+</html>
