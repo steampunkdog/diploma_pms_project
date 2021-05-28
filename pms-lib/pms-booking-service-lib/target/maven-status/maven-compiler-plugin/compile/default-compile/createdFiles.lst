@@ -1,0 +1,3 @@
+adapter\impl\RemoteBookingServiceAdapterImpl$BookingDto.class
+adapter\impl\RemoteBookingServiceAdapterImpl.class
+adapter\BookingServiceAdapter.class

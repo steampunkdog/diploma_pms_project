@@ -1,0 +1,12 @@
+mykyta\anyshchenko\diploma\model\enums\Gender.class
+mykyta\anyshchenko\diploma\model\Task.class
+mykyta\anyshchenko\diploma\model\RoomClass.class
+mykyta\anyshchenko\diploma\model\enums\TaskStatus.class
+mykyta\anyshchenko\diploma\model\serialization\DynamicEnumSerializer.class
+mykyta\anyshchenko\diploma\model\enums\DynamicEnum.class
+mykyta\anyshchenko\diploma\model\RoomTag.class
+mykyta\anyshchenko\diploma\model\enums\BookingStatus.class
+mykyta\anyshchenko\diploma\model\Booking.class
+mykyta\anyshchenko\diploma\model\enums\Role.class
+mykyta\anyshchenko\diploma\model\Room.class
+mykyta\anyshchenko\diploma\model\User.class
